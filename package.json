@@ -1,0 +1,17 @@
+{
+  "name": "json-to-xml-benchmarks",
+  "version": "1.0.0",
+  "scripts": {
+    "benchmark": "node index.js",
+    "prettier": "prettier --write \"{lib,test}/**/*.{js,ts}\""
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "jstoxml": "^1.4.4",
+    "node-memwatch": "^1.0.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
